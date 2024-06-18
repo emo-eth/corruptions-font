@@ -11,6 +11,6 @@ contract CorruptionsTest is Test {
 
     function testLoad() public view {
         string memory loaded = Corruptions.load();
-        assertEq(Corruptions.CORRUPTIONS, loaded);
+        assertEq(string.concat("data:font/otf;base64,", Corruptions.CORRUPTIONS), loaded);
     }
 }
