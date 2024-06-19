@@ -1,6 +1,0 @@
-ethfs/=lib/ethfs/packages/contracts/src/
-ds-test/=lib/ethfs/packages/contracts/lib/forge-std/lib/ds-test/src/
-erc4626-tests/=lib/ethfs/packages/contracts/lib/openzeppelin-contracts/lib/erc4626-tests/
-forge-std/=lib/forge-std/src/
-openzeppelin-contracts/=lib/ethfs/packages/contracts/lib/openzeppelin-contracts/
-solady/=lib/ethfs/packages/contracts/lib/solady/
