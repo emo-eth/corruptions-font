@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-import {File, BytecodeSlice, read} from "ethfs/File.sol";
+import {File, BytecodeSlice, read} from "./File.sol";
 
 library Corruptions {
     // convenience for etching in tests
